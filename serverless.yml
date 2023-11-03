@@ -1,13 +1,13 @@
-service: LannChainBook-ChatGTPSlackFunction
+service: LangChain-ChatGTP-SlackFunction
 frameworkVersion: '3'
 
-privider:
+provider:
   name: aws
-  resion: ap-northeast-1
+  region: ap-northeast-1
   stage: dev
   iam:
     role:
-      statement:
+      statements:
         - Effect: Allow
           Action: 
             - lambda:InvokeFunction
@@ -23,7 +23,7 @@ package:
 
 functions:
   app:
-    name: LangCHainBook-ChatGPTSlackFunction-${sls:stage}-app
+    name: LangChain-ChatGPT-SlackFunction-${sls:stage}-app
     handler: app.handler
     runtime: python3.10
     memorySize: 512
@@ -32,4 +32,4 @@ functions:
 
 plugins:
   - serverless-python-requirements
-  - serverlss-dotenv-plugins
+  - serverless-dotenv-plugin

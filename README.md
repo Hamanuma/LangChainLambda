@@ -23,8 +23,8 @@
 - ソケットモードの有効化 - [x]  
 - アプリケーションの作成 - [x]  
 - イベント設定 - [x]  
-- Momento Chacheの設定  - [ ]  
-- Lazyリスナーの設定  - [ ]  
+- Momento Chacheの設定  - [x]  
+- Lazyリスナーの設定  - [x]  
 - AWS Lambdaへのデプロイ - [ ]  
 - AWS LambdaLayerの作成 - [ ] 
 
