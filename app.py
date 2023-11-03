@@ -90,7 +90,7 @@ def handle_mention(event, say):
     history = MomentoChatMessageHistory.from_client_params(
         id_ts,
         os.environ["MOMENTO_TOKEN"],
-        timedelta(hours=int(os.environ["MOMENT_TTL"]))        
+        timedelta(hours=int(os.environ["MOMENTO_TTL"]))        
     )
 
     messages = [SystemMessage(content="You are a good assistant.")]

@@ -15,18 +15,27 @@
 
 
 # やること
-- Cloud9環境の準備 - [ ]
+- Cloud9環境の準備 - [x]
 - Slackチャンネルの作成 - [x]  
-- Slackアプリの作成 - [ ]  
-- SlackOAuthトークンの取得 - []
-- OpenAI keyの設定 - [] 
-- ソケットモードの有効化 - [ ]  
-- アプリケーションの作成 - [ ]  
-- イベント設定 - [ ]  
+- Slackアプリの作成 - [x]  
+- SlackOAuthトークンの取得 - [x]
+- OpenAI keyの設定 - [x] 
+- ソケットモードの有効化 - [x]  
+- アプリケーションの作成 - [x]  
+- イベント設定 - [x]  
 - Momento Chacheの設定  - [ ]  
 - Lazyリスナーの設定  - [ ]  
 - AWS Lambdaへのデプロイ - [ ]  
 - AWS LambdaLayerの作成 - [ ] 
+
+# 開発環境構築手順
+https://qiita.com/hamanuman/items/4736eecb2134b2b86c90
+
+# SlackBot設定手順
+https://qiita.com/hamanuman/private/4dca7eecc819355e13bf
+
+# MomentoChacheキー取得方法
+https://qiita.com/hamanuman/private/2853f6d0cd2d1125afdc
 
 # 参考資料
 「ChatGPT/LangChainによるチャットシステム構築［実践］入門」 第7章
